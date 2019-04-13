@@ -1,4 +1,4 @@
-# Astronomia
+# HTML + CSS
 Despues de seguir una estructura correcto con cada una de las etiquetas nuestra pagina realizada en HTML5 nos queda un buen resultado.
 
 
