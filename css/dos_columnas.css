@@ -1,0 +1,23 @@
+
+
+
+#contenedor{
+    width: 50%;
+    max-width: 1000px;
+    width: expression(document.body.clientWidth > 901? "900px": "auto" );
+    margin: 0 auto;
+}
+
+
+
+
+/*
+#contenedor {
+  width: 100%;
+  max-width: 950px;
+  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  margin: 0 auto;
+    background: url(images.jpeg);
+    
+}
+*/

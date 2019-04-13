@@ -3,10 +3,11 @@
 
 <head>
 
-    <meta charset="utf-8"/>
-    <meta name="keywords" content="breast cancer, run, race, charity"/>
-    <title>Biblografia</title>
-    <link href="css/dos_columnas.css" rel="stylesheet"/>
+    <meta charset="utf-8"/> <!-- Señala el comienzo de la documento HTML, indicando que la pagina es en español-->
+    <meta name="keywords" content="HTML5, CSS, content, margin"/>
+    <title>Inicio - Astronomia</title> <!--Titulo de la pestaña en el navegador-->
+    <link href="css/dos_columnas.css" rel="stylesheet"/> <!--Ubicacion del archivo css-->
+    <link href="css/reglas.css" rel="stylesheet"/>
 
 </head>
 
@@ -14,23 +15,33 @@
 <body>
 
     <!--contenedor-->
-    <div>
+    <div id="contenedor">
 
         <!--cabecera-->
-        <div>
+        <div id="cabecera">
 
             <!--nombre-->
-            <div>
+            <div id="logo">
                 <h1><span>Astronomia - Una odisea de espacio tiempo</span></h1>
             </div>
             <!--nombre-->
-            
+
+            <!--Buscador-->
+            <div id="buscador">
+                    <form action="#" method="post">
+                        Buscar &nbsp; <input name="busqueda" type="text" />
+                    </form>
+            </div>
+            <!--Buscador-->
+
+            <div class="clear"></div>
+
         </div>
         <!--cabecera-->
 
         
         <!--menu-->
-        <div>
+        <div id="menu">
             <ul id="menu_principal">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Planetas</a></li>
@@ -44,7 +55,37 @@
 
 
         <!--contenidos-->
-        <div>
+        <div id="cabecera">
+
+            <!--Primario-->
+            <div>
+                <div>
+                    <h2>Astronomía observacional</h2>
+
+                    <img src="milky_way.jpg" alt="milky_way" />
+
+                    <p>La astronomía observacional es una rama de la astronomía que se encarga de recopilar y almacenar la información acerca del universo observable, en contraste con la astronomía teórica, que se ocupa principalmente de calcular las implicaciones medibles de los modelos físicos. Esta es la práctica y el estudio de la observación de cuerpos celestes por medio del uso de telescopios y otros instrumentos astronómicos.</p>
+                    <p>Como ciencia, el estudio de la astronomía se ve algo obstaculizado por el hecho de que los experimentos directos con las propiedades del universo distante no son posibles.</p>
+                    <p>Sin embargo, esto es parcialmente compensado por el hecho de que los astrónomos tienen un vasto número de visibles ejemplos de fenómenos estelares que pueden ser examinados. Esto permite que los datos de observación se puedan representar en gráficos y tendencias generales.</p>
+
+                </div>
+
+            </div>
+            <!--Primario-->
+
+
+            <!--Secundario-->
+            <div>
+                <div>
+                    <h2>Astronomía teórica</h2>
+
+                    <p>Los astrónomos teóricos utilizan una gran variedad de herramientas como modelos matemáticos analíticos y simulaciones numéricas por computadora. Cada uno tiene sus ventajas. Los modelos matemáticos analíticos de un proceso por lo general, son mejores porque llegan al corazón del problema y explican mejor lo que está sucediendo. Los modelos numéricos, pueden revelar la existencia de fenómenos y efectos que de otra manera no se verían.</p>
+
+                </div>
+
+            </div>
+            <!--Secundario-->
+
 
         </div>
         <!--contenidos-->
@@ -52,6 +93,20 @@
 
         <!--pie de pagina-->
         <div>
+            <span class="enlaces">
+                    <a href="#">Ayuda</a> |
+                    <a href="#">Información</a> |
+                    <a href="#">Contactos</a> |
+                    <a href="#">Recursos</a> |
+                    <a href="#">Política de privacidad</a> |
+                    <a href="#">Propiedad intelectual</a>
+            </span>
+                    
+            <span class="copyright">
+                &copy; Copyright Vinicio Barzallo H.
+            </span>
+
+            <div class="clear"></div>
 
         </div>
         <!--pie de pagina-->
