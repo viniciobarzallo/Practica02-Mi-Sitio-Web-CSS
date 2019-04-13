@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Selector  */
+p span {color: rgb(37, 58, 241);}
+
+
+.destacado{color: blue;}
+
+#destacado{color: green}
+
+/*Modelo dejas
+    margin - separacion ente la caja y el resto de cajas
+        background-color - color detras del contenido
+            background-image - imagen detras del contenido
+                border - linea que enciarra el contenido
+                    padding - especio entre contenido y borde
+                        content - contenido de HTML
+*/
+
+/*anchura*/
+#lateral {width: 200px;}
+
+/*altura*/
+#cabecera {height: 100px;}
+
+/*Propiedades de margen*/
+
+div img {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 1em;
+    margin-right: .5em;
+}
+
+div img {
+        margin: .5em .5em .5m 1em;
+}
+
+div img {
+    margin: .5em;
+    margin-left: 1em;
+}
