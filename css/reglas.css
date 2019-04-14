@@ -1,29 +1,29 @@
+  /*Color de fondo de toda la pagina*/
+  html {
+  background-color: rgb(240, 232, 128);
+  }
 
-
-  /*-- Básico ----------------------------------------------------------*/
+  /*-- Básico --*/
   ul, ul li { 
       margin: 0; 
       padding: 0; 
       list-style: none;
  }
 
-  h1, h2, h3, p, form { 
+  h1, h2, h3, p { 
       margin: 0; 
       padding: 0; 
   }
   
   .clear { clear: both; }
 
-  img { 
-      border: none; 
-  }
-
-  /*No subrayar los links*/
+  /*--No subrayar los links--*/
   a {
       text-decoration: none;
       font-family: Verdana, Geneva, Arial, sans-serif;
   }
   
+  /*Espacion entre cada parrafo*/
   p {
       margin: 5px;
   }
@@ -31,109 +31,78 @@
   #contenedor {
     width: 100%;
     max-width: 950px;
-    margin: 0 auto;  
+    margin: 0 auto;
+    background: url(/img/pt_logo.jpg);
+    background-color: aqua;
   }
 
 
-  /*-- Layout ----------------------------------------------------------*/
-  #cabecera, #menu, #lateral, #contenido, #contenido #principal, #pie {
+  /*-- Layout -- Tamaño del borde---*/
+  #cabecera, #lateral, #contenido, #pie {
     border: 2px solid #777;
   }
   
-  
-  #cabecera { clear: both; }
-  #menu { clear: both; }
-  #lateral { float: left; width: 20%; }
+  /*Tamaño de las cajas*/
+  #lateral { float: left; width: 21%; }
   #contenido { float: right; width: 88%; }
-  #contenido #principal { float: left; width: 88%; }
-  #pie { clear: both; }
   
   /*-- Cabecera --------------------------------------------------------*/
   #cabecera #logo { 
       float: 
-       left; 
+      left;    
   }
   
   #cabecera #buscador { float: right; }
   
-  /*-- Menu ------------------------------------------------------------*/
+  /*-- Menu -----
+  #menu ul#menu_principal li { 
+    display: inline; 
+    float: left; 
+    width: 15%;
+    height: 100%;
+	  vertical-align:middle;   
+} */
   
-  
-  /*-- Sección Principal -----------------------------------------------*/
+  /*-- Cambio del tamaño de los pixeles dentro del contenido --*/
   #contenido .articulo img { width: 200px; float: left; }
   
-  /*-- Pie de página ---------------------------------------------------*/
+  /*-- Pie de página --*/
   #pie .enlaces   { float: left; }
   #pie .copyright { float: right; }
-  
-/*
-  #cabecera,
-  #menu,
-  #lateral,
-  #lateral #publicidad,
-  #contenido,
-  #contenido #principal,
-  #pie {
-    padding: .5em;
-    border: none;
-*/
-
-
-  
-  /*no hay cambios*/
-  #lateral {
-    padding: 10;
-  }
-  
+    
+  /*Ancho de la cabecera*/
   #cabecera {
     padding: 1em;
   }
   
   #menu {
-    border-bottom: 1px solid #004C99;
-    background: rgb(246, 247, 250);
-    padding: .2em;
+    background: aqua;
+    padding: .2em; /*espacio entre el borde y el texto*/
   }
   
   #contenido {
     width: 77%;
-    padding: 0;
+    padding: 0; /*es el espacio entre el contenido del elemento y su borde ( border ) no se permiten valores negativos.*/
   }
-  
-  /*no hay cambios*/
-  #contenido #principal {
-    width: 73%;
-  }
-  
-  /*no hay cambios*/
-  #contenido #secundario {
-    border: 1px solid #0101DF;
-  }
-  
-  /*no hay cambios*/
-  #contenido #secundario h2 {
-    background: #819FF7;
-    padding: .2em;
-  }
-  
-  #pie #cabecera{
-    padding: .5em 0; /*Espacio entre caja de contenido y pie*/
-    margin-top: 1em;
-    background: #F8F8F8;
-  }
-  
-  #contenido #principal .articulo {
-    margin-bottom: 1em;
-  }
-  
+    
+  /*Espacio entre el borde y texto del contenido*/
   #contenido .articulo img { 
     margin: .5em;
   }
   
   #lateral {
     margin-top: 1em;
-    border: 1px dashed #C60;
     background: #819FF7;
   }
+
+  #contenido, #pie{
+    margin-top: 1em;
+  }
+
+  #pie {
+    padding: 1em;
+
+  }
+  
   
   

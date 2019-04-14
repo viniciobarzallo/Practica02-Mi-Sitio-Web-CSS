@@ -1,88 +1,130 @@
 <!DOCTYPE html> <!-- Indica que es una pagina HTML5-->
 <html lang="es"> <!-- Señala el comienzo de la documento HTML, indicando que la pagina es en español-->
-<head> <!-- La cabecera del documento que contiene información sobre el documento.-->
-   <title>Astronomía</title>
-   <meta charset="utf-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+
+<head>
+
+    <meta charset="utf-8"/> <!-- Señala el comienzo de la documento HTML, indicando que la pagina es en español-->
+    <meta name="keywords" content="HTML5, CSS, content, margin"/>
+    <title>Inicio - Astronomia</title> <!--Titulo de la pestaña en el navegador-->
+    <link href="css/dos_columnas.css" rel="stylesheet"/> <!--Ubicacion del archivo css-->
+    <link href="css/reglas.css" rel="stylesheet"/>
+
 </head>
 
-<body>  <!-- El cuerpo del documento que contiene todos los contenido que lo hará Aparecen en la página.-->
-   <header> 
-      <img src="img/pt_logo.jpg" alt="Astronomía" />
-   </header>
-   <nav>
-        <a href="index.html">Astronomía</a>
-        <a href="pt_estrellas.html">Estrellas</a>
-        <a href="pt_asteroides.html">Asteroides</a>
-        <a href="pt_planetas.html">Planetas</a>
-        <a href="pt_galaxias.html">Galaxias</a>
-        
-   </nav>
 
-   <section>
-       <h1>Astronomía</h1>
-       <article>
-            <h1>Qué es la Astronomía?</h1>
-            <img src="img/pt_telescopio.jpeg" alt="Telescopio" />
-            <p><strong>La astronomía</strong> es la ciencia que se ocupa del estudio de los cuerpos 
-            celestes del universo, incluidos los planetas y sus satélites, los cometas y 
-            meteoroides, las estrellas y la materia interestelar, los sistemas de materia oscura, 
-            gas y polvo llamados <span>galaxias</span> y los cúmulos de galaxias; por lo que estudia sus 
-            movimientos y los fenómenos ligados a ellos.</p>
-       </article>
+<body>
 
-       <aside>
-           <p id="destacado">Personajes como: Aristóteles, Tales de Mileto, Anaxágoras, Aristarco de Samos,
-           Hiparco de Nicea, Claudio Ptolomeo, Hipatia de Alejandría, Nicolás Copérnico, Tycho Brahe,
-           Johannes Kepler, Galileo Galilei, Christiaan Huygens o Edmund Halley han sido algunos de
-           sus cultivadores.</p>
-       </aside>
+    <!--contenedor-->
+    <div id="contenedor">
 
-       <aside>
-           <p class="destacado">Nos remontamos hacia el siglo XIX, la Astronomía se había desarrollado como una ciencia formal, 
-           con la introducción de instrumentos tales como el espectroscopio y la fotografía, 
-           que permitieron la continua mejora de telescopios y la creación de observatorios 
-           profesionales.</p>
-       </aside>
-   </section>
+        <!--cabecera-->
+        <div id="cabecera">
 
-   <section>
-        <h1>Astrofísica</h1>
-       <aside>
-           <p>La astrofísica es una parte moderna de la astronomía que estudia los astros como 
-           cuerpos de la <a href="#" class="destacado">física estudiando</a> su composición, estructura y evolución. Solo fue 
-           posible su inicio en el <em class="destacado">siglo XIX</em> cuando gracias a los espectros se pudo averiguar
-           la composicion.</p>
-       </aside>
+            <!--nombre-->
+            <div id="logo">
+                <h1><span>Astronomia</span></h1>
+            </div>
+            <!--nombre-->
 
-       <div id="lateral">
-        <h2> width - anchura </h2>
-         <p>
-           Esto es un párrafo dentro de un div,
-           <span style="color: red;"> y esto un span dentro de un párrafo.</span> 
-         </p>
-       </div>
-   </section>
+            <!--Buscador-->
+            <div id="buscador">
+                    <form action="#" method="post">
+                        Buscar &nbsp; <input name="busqueda" type="text" />
+                    </form>
+            </div>
+            <!--Buscador-->
 
-   
+            <div class="clear"></div>
 
-   <div id="cabecera">
-    <h2> height - altura</h2>
-     <p>
-       Esto es un párrafo dentro de un div,
-       <span style="color: red;"> y esto un span dentro de un párrafo.</span> 
-     </p>
-   </div>
+        </div>
+        <!--cabecera-->
 
-   <footer> <!--Indica donde inicia el pie de pagina-->
-        &#8226; Marco Vinicio Barzallo Huanga &#8226; Universidad Politécnica Salesiana &#8226;
-        Correo:<a href="mailto:mbarzalloh@est.ups.edu.ec"> mbarzalloh@est.ups.edu.ec</a> &#8226; 
-        Tel:<a href="tel:0990254304"> 0990254304</a>
-   </footer>
+
+        <!--Lateral izquierdo-->
+        <div id="lateral">
+
+            <!--menu-->
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Planetas</a></li>
+                    <li><a href="#">Sistema solar</a></li>
+                    <li><a href="#">Estrellas</a></li>
+                    <li><a href="#">Galaxias</a></li>
+                </ul>
+    
+            </div>
+            <!--menu-->
+
+        </div>
+        <!--Lateral izquierdo-->
+
+
+        <!--contenidos-->
+        <div id="contenido">
+            
+            <!--Primario-->
+            <div>
+                <div class="articulo">
+                    <h2>Astronomía observacional</h2>
+
+                    <img src="img/milky_way" alt="milky_way" />
+
+                    <p>La astronomía observacional es una rama de la astronomía que se encarga de recopilar y almacenar la información acerca del universo observable, en contraste con la astronomía teórica, que se ocupa principalmente de calcular las implicaciones medibles de los modelos físicos. Esta es la práctica y el estudio de la observación de cuerpos celestes por medio del uso de telescopios y otros instrumentos astronómicos.</p>
+                    <p>Como ciencia, el estudio de la astronomía se ve algo obstaculizado por el hecho de que los experimentos directos con las propiedades del universo distante no son posibles.</p>
+                    <p>Sin embargo, esto es parcialmente compensado por el hecho de que los astrónomos tienen un vasto número de visibles ejemplos de fenómenos estelares que pueden ser examinados. Esto permite que los datos de observación se puedan representar en gráficos y tendencias generales.</p>
+                    <p><a href="#">Seguir leyendo...</a></p>
+
+                </div>
+
+            </div>
+            <!--Primario-->
+
+            <!--Secundario-->
+            <div>
+                <div class="articulo">
+                    <h2>Astronomía teórica</h2>
+
+                    <img src="img/sistema_solar.jpg" alt="sistema_solar">
+                    
+                    <p>Los astrónomos teóricos utilizan una gran variedad de herramientas como modelos matemáticos analíticos y simulaciones numéricas por computadora. Cada uno tiene sus ventajas. Los modelos matemáticos analíticos de un proceso por lo general, son mejores porque llegan al corazón del problema y explican mejor lo que está sucediendo. Los modelos numéricos, pueden revelar la existencia de fenómenos y efectos que de otra manera no se verían.</p>
+                    <p>Los teóricos de la astronomía ponen su esfuerzo en crear modelos teóricos e imaginar las consecuencias observacionales de estos modelos. Esto ayuda a los observadores a buscar datos que puedan refutar un modelo o permitan elegir entre varios modelos alternativos o incluso contradictorios.</p>
+                    <p>Los temas estudiados por astrónomos teóricos incluyen: dinámica estelar y evolución estelar; formación de galaxias; origen de los rayos cósmicos; relatividad general y cosmología física, incluyendo teoría de cuerdas.</p>
+                    <p><a href="#">Seguir leyendo...</a></p>
+
+                </div>
+
+            </div>
+            <!--Secundario-->
+
+
+        </div>
+        <!--contenidos-->
+
+        <div class="clear"></div>
+
+        <!--pie de pagina-->
+        <div id="pie">
+            <span class="enlaces">
+                    <a href="#">Novedades</a> |
+                    <a href="#">Store y soporte</a> |
+                    <a href="#">Empresa</a> |
+                    <a href="#">Desarrollador</a> |
+                    <a href="#">Compañia</a> |
+            </span>
+                    
+            <span class="copyright">
+                &copy; Copyright Vinicio Barzallo H.
+            </span>
+            
+            <div class="clear"></div>
+        </div>
+        <!--pie de pagina-->
+
+    </div>
+    <!--Contenedor-->
+
 </body>
-
-
 
 
 </html>
