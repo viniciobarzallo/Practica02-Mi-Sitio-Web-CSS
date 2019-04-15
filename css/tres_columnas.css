@@ -1,0 +1,33 @@
+
+#lateralde {float: right; width: 21%;
+}
+
+#contenido_tres { float: right; width: 88%; }
+#contenido_tres { float: left; width: 88%; }
+
+#lateralde{
+    margin-left: 1em;
+    margin-top: 1em;
+    width: 21%;
+}
+
+#contenido_tres {
+    width: 53%;
+    padding: 0; /*es el espacio entre el contenido del elemento y su borde ( border ) no se permiten valores negativos.*/
+  }
+
+#lateralde, #contenido_tres {
+    border: 2px solid #777;
+}  
+
+/*-- Cambio del tamaño de los pixeles dentro del contenido --*/
+#contenido_tres .articulo img { width: 200px; float: left; }
+
+/*Espacio entre el borde y texto del contenido*/
+#contenido_tres .articulo img { 
+    margin: .5em;
+}
+
+#contenido_tres, #pie{
+    margin-top: 1em;
+}

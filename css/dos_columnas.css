@@ -1,16 +1,15 @@
+#lateral { float: left; width: 21%; }
 
-
-
-
-
-
-/*
-#contenedor {
-  width: 100%;
-  max-width: 950px;
-  width: expression(document.body.clientWidth > 901? "900px": "auto");
-  margin: 0 auto;
-    background: url(images.jpeg);
-    
+#lateral {
+  margin-bottom: 5px;
+  border-radius: 15px 15px 15px 15px; /* esquinas en forma ovalada*/
+  margin-top: 1em;
+  margin-right: 1em;
+  background: #819FF7;
 }
-*/
+
+#menu {
+  border-radius: 15px 15px 15px 15px; /* esquinas en forma ovalada*/
+  background: rgb(206, 224, 41);
+  padding: .2em; /*espacio entre el borde y el texto*/
+}

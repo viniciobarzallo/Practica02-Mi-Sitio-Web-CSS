@@ -26,6 +26,7 @@
   /*Espacion entre cada parrafo*/
   p {
       margin: 5px;
+      text-align: justify;
   }
   
   #contenedor {
@@ -37,19 +38,20 @@
   }
 
 
-  /*-- Layout -- Tamaño del borde---*/
+  /*-- Layout -- Tamaño del borde-- #lateralde-*/
   #cabecera, #lateral, #contenido, #pie {
     border: 2px solid #777;
   }
-  
+
+
   /*Tamaño de las cajas*/
-  #lateral { float: left; width: 21%; }
   #contenido { float: right; width: 88%; }
+  #contenido { float: left; width: 88%; }
+  
   
   /*-- Cabecera --------------------------------------------------------*/
   #cabecera #logo { 
-      float: 
-      left;    
+      float: left;    
   }
   
   #cabecera #buscador { float: right; }
@@ -75,24 +77,18 @@
     padding: 1em;
   }
   
-  #menu {
-    background: aqua;
-    padding: .2em; /*espacio entre el borde y el texto*/
-  }
-  
   #contenido {
-    width: 77%;
+    width: 53%;
     padding: 0; /*es el espacio entre el contenido del elemento y su borde ( border ) no se permiten valores negativos.*/
   }
-    
+   
   /*Espacio entre el borde y texto del contenido*/
   #contenido .articulo img { 
     margin: .5em;
   }
   
-  #lateral {
-    margin-top: 1em;
-    background: #819FF7;
+  #espacio{
+    margin-bottom: 5px;
   }
 
   #contenido, #pie{
@@ -101,7 +97,6 @@
 
   #pie {
     padding: 1em;
-
   }
   
   
