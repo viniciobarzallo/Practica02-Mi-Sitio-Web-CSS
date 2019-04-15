@@ -37,19 +37,16 @@
     background-color: aqua;
   }
 
-
   /*-- Layout -- Tamaño del borde---*/
   #cabecera, #lateral, #contenido, #pie {
     border: 2px solid #777;
   }
 
-
   /*Tamaño de las cajas*/
   #contenido { float: right; width: 88%; }
   #contenido { float: left; width: 88%; }
   
-  
-  /*-- Cabecera --------------------------------------------------------*/
+  /*-- Cabecera --*/
   #cabecera #logo { 
       float: left;    
   }
@@ -78,7 +75,7 @@
     margin: .5em;
   }
   
-  #espacio{
+  .espacio{
     margin-bottom: 5px;
   }
 
