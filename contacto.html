@@ -1,0 +1,32 @@
+<!DOCTYPE html> <!-- Indica que es una pagina HTML5-->
+<html lang="es"> <!-- Señala el comienzo de la documento HTML, indicando que la pagina es en español-->
+
+<head>
+    <meta charset="utf-8"/> <!-- Señala el comienzo de la documento HTML, indicando que la pagina es en español-->
+    <meta name="keywords" content="HTML5, CSS, content, margin"/>
+    <title>Astronomía - Contacto</title> <!--Titulo de la pestaña en el navegador-->
+    <link href="css/reglas.css" rel="stylesheet"/>
+</head>
+
+
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    <div class="row">
+        <label class="required" for="name">Nombre:</label><br />
+        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+        <span id="name_validation" class="error_message"></span>
+    </div>
+
+    <div class="row">
+        <label class="required" for="email">Correo:</label><br />
+        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+        <span id="email_validation" class="error_message"></span>
+    </div>
+
+    <div class="row">
+        <label class="required" for="message">Mensaje:</label><br />
+        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+        <span id="message_validation" class="error_message"></span>
+    </div>
+    
+    <input id="submit_button" type="submit" value="Enviar correo" />
+</form>
